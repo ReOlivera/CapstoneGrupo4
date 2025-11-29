@@ -1,0 +1,28 @@
+.calendar-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.calendar-section label {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar-section input,
+.calendar-section select {
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+}
+
+.calendar-section input:focus,
+.calendar-section select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(90, 45, 130, 0.15);
+}
