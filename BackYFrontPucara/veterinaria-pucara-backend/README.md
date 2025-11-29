@@ -1,1 +1,0 @@
-Backend listo para conectar con las vistas PostgreSQL de Veterinaria Pucará.
